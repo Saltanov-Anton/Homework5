@@ -64,5 +64,16 @@ public class Main {
         } else if (ageChild >= 14) {
             System.out.println("Ребенок может кататься на аттракционе один");
         }
+
+        int one = 4;
+        int two = 2;
+        int three = 3;
+        if (one > two && one > three) {
+            System.out.println(one);
+        } else if (two > one && two > three) {
+            System.out.println(two);
+        } else if ( three > one && three > two) {
+            System.out.println(three);
+        }
     }
 }
