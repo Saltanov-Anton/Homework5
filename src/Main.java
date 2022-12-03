@@ -55,5 +55,14 @@ public class Main {
                 }
             }
         }
+
+        int ageChild = 4;
+        if (ageChild < 5) {
+            System.out.println("Ребенок не может кататься на аттракционе");
+        } else if (ageChild >= 5 && ageChild < 14) {
+            System.out.println("Ребенок может кататься на аттракционе только в сопровождении взрослого");
+        } else if (ageChild >= 14) {
+            System.out.println("Ребенок может кататься на аттракционе один");
+        }
     }
 }
