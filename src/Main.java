@@ -21,5 +21,18 @@ public class Main {
         if (age2 >= 24) {
             System.out.println("Вам пора на работу");
         }
+
+        int wagon = 102;
+        int seating = 60;
+        int seats = 102;
+        if (seats <= 60) {
+            System.out.println("В вагоне есть сидячие места");
+        }
+        if (seats >= seating & seats <= wagon) {
+            System.out.println("В вагоне остались только стоячие места");
+        }
+        if (seats > wagon) {
+            System.out.println("В вагоне не осталось мест");
+        }
     }
 }
